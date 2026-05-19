@@ -1,0 +1,103 @@
+{
+  "_comment": "Each market has a name, the list of ZIPs it covers, optional Redfin saved-search URLs (for the browser playbook), and a list of Realtor.com city/state pairs (for the API fetcher). Edit the redfin_url entries to your actual saved searches.",
+  "default_filters": {
+    "min_price": 200000,
+    "max_price": 2000000,
+    "min_beds": 2,
+    "property_types": ["single-family", "multi-family", "condo", "townhouse"]
+  },
+  "markets": [
+    {
+      "name": "monmouth_north",
+      "label": "North Monmouth (Bayshore + Highlands)",
+      "zips": ["07716", "07718", "07730", "07732", "07734", "07735", "07737", "07747", "07748", "07752", "07758"],
+      "realtor_locations": [
+        {"city": "Middletown", "state_code": "NJ"},
+        {"city": "Hazlet", "state_code": "NJ"},
+        {"city": "Keansburg", "state_code": "NJ"},
+        {"city": "Atlantic Highlands", "state_code": "NJ"},
+        {"city": "Highlands", "state_code": "NJ"},
+        {"city": "Keyport", "state_code": "NJ"},
+        {"city": "Matawan", "state_code": "NJ"}
+      ],
+      "redfin_url": "REPLACE_ME — set your saved search URL"
+    },
+    {
+      "name": "monmouth_central",
+      "label": "Central Monmouth (Red Bank / Rumson / Holmdel / Lincroft)",
+      "zips": ["07701", "07702", "07703", "07704", "07733", "07738", "07739", "07740", "07750", "07757", "07760", "07764"],
+      "realtor_locations": [
+        {"city": "Red Bank", "state_code": "NJ"},
+        {"city": "Rumson", "state_code": "NJ"},
+        {"city": "Fair Haven", "state_code": "NJ"},
+        {"city": "Little Silver", "state_code": "NJ"},
+        {"city": "Holmdel", "state_code": "NJ"},
+        {"city": "Lincroft", "state_code": "NJ"},
+        {"city": "Long Branch", "state_code": "NJ"},
+        {"city": "Monmouth Beach", "state_code": "NJ"},
+        {"city": "Oceanport", "state_code": "NJ"},
+        {"city": "West Long Branch", "state_code": "NJ"}
+      ],
+      "redfin_url": "REPLACE_ME"
+    },
+    {
+      "name": "monmouth_west",
+      "label": "Western Monmouth (Freehold / Marlboro / Manalapan / Howell)",
+      "zips": ["07722", "07726", "07727", "07728", "07731", "07746", "07751"],
+      "realtor_locations": [
+        {"city": "Freehold", "state_code": "NJ"},
+        {"city": "Marlboro", "state_code": "NJ"},
+        {"city": "Manalapan", "state_code": "NJ"},
+        {"city": "Howell", "state_code": "NJ"},
+        {"city": "Colts Neck", "state_code": "NJ"},
+        {"city": "Morganville", "state_code": "NJ"},
+        {"city": "Englishtown", "state_code": "NJ"},
+        {"city": "Farmingdale", "state_code": "NJ"}
+      ],
+      "redfin_url": "REPLACE_ME"
+    },
+    {
+      "name": "monmouth_shore",
+      "label": "Monmouth Shore (Asbury Park / Belmar / Spring Lake / Sea Girt)",
+      "zips": ["07712", "07717", "07719", "07720", "07723", "07724", "07753", "07755", "07756", "07762", "08750"],
+      "realtor_locations": [
+        {"city": "Asbury Park", "state_code": "NJ"},
+        {"city": "Avon by the Sea", "state_code": "NJ"},
+        {"city": "Belmar", "state_code": "NJ"},
+        {"city": "Bradley Beach", "state_code": "NJ"},
+        {"city": "Deal", "state_code": "NJ"},
+        {"city": "Eatontown", "state_code": "NJ"},
+        {"city": "Neptune", "state_code": "NJ"},
+        {"city": "Ocean Grove", "state_code": "NJ"},
+        {"city": "Spring Lake", "state_code": "NJ"},
+        {"city": "Sea Girt", "state_code": "NJ"},
+        {"city": "Wall", "state_code": "NJ"}
+      ],
+      "redfin_url": "REPLACE_ME"
+    },
+    {
+      "name": "ocean_shore",
+      "label": "Ocean County (Point Pleasant / Brick / Bay Head / Mantoloking)",
+      "zips": ["08742", "08738", "08723", "08724"],
+      "realtor_locations": [
+        {"city": "Point Pleasant Beach", "state_code": "NJ"},
+        {"city": "Point Pleasant", "state_code": "NJ"},
+        {"city": "Bay Head", "state_code": "NJ"},
+        {"city": "Mantoloking", "state_code": "NJ"},
+        {"city": "Brick", "state_code": "NJ"}
+      ],
+      "redfin_url": "REPLACE_ME"
+    },
+    {
+      "name": "hudson_urban",
+      "label": "Hudson (Hoboken / Jersey City / Weehawken)",
+      "zips": ["07030", "07086", "07302", "07304", "07305", "07306", "07307", "07310", "07311"],
+      "realtor_locations": [
+        {"city": "Hoboken", "state_code": "NJ"},
+        {"city": "Weehawken", "state_code": "NJ"},
+        {"city": "Jersey City", "state_code": "NJ"}
+      ],
+      "redfin_url": "REPLACE_ME"
+    }
+  ]
+}

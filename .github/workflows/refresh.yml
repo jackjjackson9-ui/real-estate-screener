@@ -1,0 +1,49 @@
+name: Refresh listings + rent table
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # daily at 7am ET (11:00 UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Fetch Realtor.com listings
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: |
+          if [ -z "$RAPIDAPI_KEY" ]; then
+            echo "RAPIDAPI_KEY secret not set — skipping listings fetch."
+          else
+            python scripts/fetch_realtor.py
+          fi
+
+      - name: Refresh rent table
+        run: python scripts/refresh_rent_table.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/listings/ data/rent_psf_by_zip.csv data/rent_psf_by_zip.csv.bak.* 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "data: scheduled refresh $(date -u +'%Y-%m-%d')"
+            git push
+          fi

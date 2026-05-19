@@ -55,15 +55,6 @@ def _browser_set(key: str, value):
     _ls.setItem(key, json.dumps(value))
 
 
-def _api_key() -> str | None:
-    try:
-        if "RAPIDAPI_KEY" in st.secrets:
-            return st.secrets["RAPIDAPI_KEY"]
-    except Exception:
-        pass
-    return os.environ.get("RAPIDAPI_KEY")
-
-
 # ---------- Data loading (cached) ----------
 
 @st.cache_data(show_spinner=False)
@@ -103,31 +94,18 @@ def _dir_mtime(p: Path) -> float:
 # ---------- Sidebar: refresh + underwriting + filters ----------
 
 st.sidebar.header("Refresh")
-if st.sidebar.button("🔄 Refresh now", use_container_width=True):
-    key = _api_key()
-    env = {**os.environ}
-    if key:
-        env["RAPIDAPI_KEY"] = key
-    msgs = []
-    with st.spinner("Fetching Realtor.com listings…"):
-        if key:
-            r = subprocess.run(
-                [sys.executable, str(ROOT / "scripts" / "fetch_realtor.py")],
-                env=env, capture_output=True, text=True, cwd=str(ROOT),
-            )
-            msgs.append(f"Realtor.com: exit {r.returncode}")
-            if r.stderr:
-                msgs.append(r.stderr[-400:])
-        else:
-            msgs.append("Skipped Realtor.com (RAPIDAPI_KEY not set).")
+if st.sidebar.button("🔄 Refresh rent data", use_container_width=True,
+                      help="Pulls latest Zillow ZORI. For fresh listings, run the Refresh Redfin shortcut on your desktop."):
     with st.spinner("Refreshing rent table…"):
         r = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "refresh_rent_table.py")],
             capture_output=True, text=True, cwd=str(ROOT),
         )
-        msgs.append(f"Rent table: exit {r.returncode}")
     st.cache_data.clear()
-    st.sidebar.success("\n".join(msgs))
+    if r.returncode == 0:
+        st.sidebar.success("Rent data refreshed.")
+    else:
+        st.sidebar.error(f"Rent refresh failed: {r.stderr[-300:]}")
     st.rerun()
 
 st.sidebar.divider()
@@ -168,12 +146,12 @@ listings = _load(
 )
 
 if listings.empty:
-    st.warning(
-        "No listings loaded yet. If you just deployed, click **🔄 Refresh now** in the sidebar "
-        "to pull listings from Realtor.com."
+    st.info(
+        "👋 **No listings loaded yet.** To populate the dashboard, run the "
+        "**Refresh Redfin** desktop shortcut on your PC. It downloads fresh "
+        "Redfin CSVs into `data/listings/`. Then sync them up via GitHub Desktop and this app will fill in."
     )
-    if not _api_key():
-        st.error("`RAPIDAPI_KEY` is not set. Add it under Streamlit Cloud → Settings → Secrets.")
+    st.caption("Once data is in, this message will be replaced by the dashboard.")
     st.stop()
 
 scored = underwrite(listings, params)

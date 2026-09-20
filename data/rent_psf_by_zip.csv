@@ -1,55 +1,55 @@
 zip,rent_psf_monthly,town,source,last_updated,notes
-07030,4.43,Hoboken,zori:2026-08-31,2026-09-19,"ZORI $3,988/mo / 900 sqft assumption"
-07086,4.38,Weehawken,zori:2026-08-31,2026-09-19,"ZORI $3,945/mo / 900 sqft assumption"
-07302,4.31,Jersey City — Downtown / Paulus Hook,zori:2026-08-31,2026-09-19,"ZORI $3,881/mo / 900 sqft assumption"
-07304,2.72,Jersey City — Bergen-Lafayette / Greenville,zori:2026-08-31,2026-09-19,"ZORI $2,450/mo / 900 sqft assumption"
-07305,2.55,Jersey City — Greenville,zori:2026-08-31,2026-09-19,"ZORI $2,295/mo / 900 sqft assumption"
-07306,3.04,Jersey City — Journal Square,zori:2026-08-31,2026-09-19,"ZORI $2,736/mo / 900 sqft assumption"
-07307,2.95,Jersey City — Heights,zori:2026-08-31,2026-09-19,"ZORI $2,656/mo / 900 sqft assumption"
-07310,5.21,Jersey City — Newport,zori:2026-08-31,2026-09-19,"ZORI $4,688/mo / 900 sqft assumption"
-07311,5.34,Jersey City — Exchange Place,zori:2026-08-31,2026-09-19,"ZORI $4,810/mo / 900 sqft assumption"
-07701,2.32,Red Bank,zori:2026-08-31,2026-09-19,"ZORI $3,244/mo / 1400 sqft assumption"
-07702,2.1,Shrewsbury,preserved,2026-09-19,PLACEHOLDER
-07703,2.0,Fort Monmouth,preserved,2026-09-19,PLACEHOLDER
-07704,2.3,Fair Haven,preserved,2026-09-19,PLACEHOLDER
-07712,2.13,Asbury Park / Ocean Twp,zori:2026-08-31,2026-09-19,"ZORI $2,979/mo / 1400 sqft assumption"
-07716,2.1,Atlantic Highlands,zori:2026-08-31,2026-09-19,"ZORI $2,945/mo / 1400 sqft assumption"
-07717,1.79,Avon-by-the-Sea,zori:2026-08-31,2026-09-19,"ZORI $2,500/mo / 1400 sqft assumption"
-07718,1.8,Belford,preserved,2026-09-19,PLACEHOLDER
-07719,2.07,Belmar / Wall,zori:2026-08-31,2026-09-19,"ZORI $2,899/mo / 1400 sqft assumption"
-07720,1.64,Bradley Beach,zori:2026-08-31,2026-09-19,"ZORI $2,293/mo / 1400 sqft assumption"
-07722,2.2,Colts Neck,preserved,2026-09-19,PLACEHOLDER
-07723,3.0,Deal,preserved,2026-09-19,PLACEHOLDER — luxury / seasonal
-07724,1.62,Eatontown / Tinton Falls,zori:2026-08-31,2026-09-19,"ZORI $2,262/mo / 1400 sqft assumption"
-07726,1.87,Englishtown / Manalapan,zori:2026-08-31,2026-09-19,"ZORI $2,620/mo / 1400 sqft assumption"
-07727,1.8,Farmingdale,preserved,2026-09-19,PLACEHOLDER
-07728,2.06,Freehold,zori:2026-08-31,2026-09-19,"ZORI $2,885/mo / 1400 sqft assumption"
-07730,2.14,Hazlet,zori:2026-07-31,2026-09-19,"ZORI $2,997/mo / 1400 sqft assumption"
-07731,2.34,Howell,zori:2026-08-31,2026-09-19,"ZORI $3,274/mo / 1400 sqft assumption"
-07732,1.88,Highlands,zori:2026-08-31,2026-09-19,"ZORI $2,633/mo / 1400 sqft assumption"
-07733,2.76,Holmdel,zori:2026-07-31,2026-09-19,"ZORI $3,867/mo / 1400 sqft assumption"
-07734,1.86,Keansburg,zori:2026-08-31,2026-09-19,"ZORI $2,602/mo / 1400 sqft assumption"
-07735,1.84,Keyport,zori:2026-08-31,2026-09-19,"ZORI $2,575/mo / 1400 sqft assumption"
-07737,1.85,Leonardo,preserved,2026-09-19,PLACEHOLDER
-07738,2.1,Lincroft,preserved,2026-09-19,PLACEHOLDER
-07739,2.4,Little Silver,preserved,2026-09-19,PLACEHOLDER
-07740,1.95,Long Branch,zori:2026-08-31,2026-09-19,"ZORI $2,730/mo / 1400 sqft assumption"
-07746,3.79,Marlboro,zori:2026-06-30,2026-09-19,"ZORI $5,300/mo / 1400 sqft assumption"
-07747,1.88,Matawan,zori:2026-08-31,2026-09-19,"ZORI $2,635/mo / 1400 sqft assumption"
-07748,2.27,Middletown,zori:2026-08-31,2026-09-19,"ZORI $3,179/mo / 1400 sqft assumption"
-07750,2.29,Monmouth Beach,zori:2026-07-31,2026-09-19,"ZORI $3,206/mo / 1400 sqft assumption"
-07751,2.51,Morganville,zori:2026-08-31,2026-09-19,"ZORI $3,516/mo / 1400 sqft assumption"
-07752,2.3,Navesink,preserved,2026-09-19,PLACEHOLDER
-07753,2.02,Neptune,zori:2026-08-31,2026-09-19,"ZORI $2,832/mo / 1400 sqft assumption"
-07755,1.85,Oakhurst,zori:2026-08-31,2026-09-19,"ZORI $2,583/mo / 1400 sqft assumption"
-07756,1.65,Ocean Grove,zori:2026-08-31,2026-09-19,"ZORI $2,304/mo / 1400 sqft assumption"
-07757,2.0,Oceanport,preserved,2026-09-19,PLACEHOLDER
-07758,1.8,Port Monmouth,preserved,2026-09-19,PLACEHOLDER
-07760,2.19,Rumson / Sea Bright / Locust,zori:2026-08-31,2026-09-19,"ZORI $3,068/mo / 1400 sqft assumption"
-07762,2.72,Spring Lake,zori:2026-08-31,2026-09-19,"ZORI $3,807/mo / 1400 sqft assumption"
-07764,2.0,West Long Branch,preserved,2026-09-19,PLACEHOLDER
-08723,2.06,Brick Township (north),zori:2026-08-31,2026-09-19,"ZORI $2,882/mo / 1400 sqft assumption"
-08724,1.79,Brick Township (south) / Brielle border,zori:2026-08-31,2026-09-19,"ZORI $2,500/mo / 1400 sqft assumption"
-08738,2.54,Mantoloking,zori:2026-08-31,2026-09-19,"ZORI $3,550/mo / 1400 sqft assumption"
-08742,2.21,Point Pleasant Beach / Point Pleasant Boro / Bay Head,zori:2026-08-31,2026-09-19,"ZORI $3,093/mo / 1400 sqft assumption"
-08750,2.8,Sea Girt,preserved,2026-09-19,PLACEHOLDER — luxury / seasonal
+07030,4.43,Hoboken,zori:2026-08-31,2026-09-20,"ZORI $3,988/mo / 900 sqft assumption"
+07086,4.38,Weehawken,zori:2026-08-31,2026-09-20,"ZORI $3,945/mo / 900 sqft assumption"
+07302,4.31,Jersey City — Downtown / Paulus Hook,zori:2026-08-31,2026-09-20,"ZORI $3,881/mo / 900 sqft assumption"
+07304,2.72,Jersey City — Bergen-Lafayette / Greenville,zori:2026-08-31,2026-09-20,"ZORI $2,450/mo / 900 sqft assumption"
+07305,2.55,Jersey City — Greenville,zori:2026-08-31,2026-09-20,"ZORI $2,295/mo / 900 sqft assumption"
+07306,3.04,Jersey City — Journal Square,zori:2026-08-31,2026-09-20,"ZORI $2,736/mo / 900 sqft assumption"
+07307,2.95,Jersey City — Heights,zori:2026-08-31,2026-09-20,"ZORI $2,656/mo / 900 sqft assumption"
+07310,5.21,Jersey City — Newport,zori:2026-08-31,2026-09-20,"ZORI $4,688/mo / 900 sqft assumption"
+07311,5.34,Jersey City — Exchange Place,zori:2026-08-31,2026-09-20,"ZORI $4,810/mo / 900 sqft assumption"
+07701,2.32,Red Bank,zori:2026-08-31,2026-09-20,"ZORI $3,244/mo / 1400 sqft assumption"
+07702,2.1,Shrewsbury,preserved,2026-09-20,PLACEHOLDER
+07703,2.0,Fort Monmouth,preserved,2026-09-20,PLACEHOLDER
+07704,2.3,Fair Haven,preserved,2026-09-20,PLACEHOLDER
+07712,2.13,Asbury Park / Ocean Twp,zori:2026-08-31,2026-09-20,"ZORI $2,979/mo / 1400 sqft assumption"
+07716,2.1,Atlantic Highlands,zori:2026-08-31,2026-09-20,"ZORI $2,945/mo / 1400 sqft assumption"
+07717,1.79,Avon-by-the-Sea,zori:2026-08-31,2026-09-20,"ZORI $2,500/mo / 1400 sqft assumption"
+07718,1.8,Belford,preserved,2026-09-20,PLACEHOLDER
+07719,2.07,Belmar / Wall,zori:2026-08-31,2026-09-20,"ZORI $2,899/mo / 1400 sqft assumption"
+07720,1.64,Bradley Beach,zori:2026-08-31,2026-09-20,"ZORI $2,293/mo / 1400 sqft assumption"
+07722,2.2,Colts Neck,preserved,2026-09-20,PLACEHOLDER
+07723,3.0,Deal,preserved,2026-09-20,PLACEHOLDER — luxury / seasonal
+07724,1.62,Eatontown / Tinton Falls,zori:2026-08-31,2026-09-20,"ZORI $2,262/mo / 1400 sqft assumption"
+07726,1.87,Englishtown / Manalapan,zori:2026-08-31,2026-09-20,"ZORI $2,620/mo / 1400 sqft assumption"
+07727,1.8,Farmingdale,preserved,2026-09-20,PLACEHOLDER
+07728,2.06,Freehold,zori:2026-08-31,2026-09-20,"ZORI $2,885/mo / 1400 sqft assumption"
+07730,2.14,Hazlet,zori:2026-07-31,2026-09-20,"ZORI $2,997/mo / 1400 sqft assumption"
+07731,2.34,Howell,zori:2026-08-31,2026-09-20,"ZORI $3,274/mo / 1400 sqft assumption"
+07732,1.88,Highlands,zori:2026-08-31,2026-09-20,"ZORI $2,633/mo / 1400 sqft assumption"
+07733,2.76,Holmdel,zori:2026-07-31,2026-09-20,"ZORI $3,867/mo / 1400 sqft assumption"
+07734,1.86,Keansburg,zori:2026-08-31,2026-09-20,"ZORI $2,602/mo / 1400 sqft assumption"
+07735,1.84,Keyport,zori:2026-08-31,2026-09-20,"ZORI $2,575/mo / 1400 sqft assumption"
+07737,1.85,Leonardo,preserved,2026-09-20,PLACEHOLDER
+07738,2.1,Lincroft,preserved,2026-09-20,PLACEHOLDER
+07739,2.4,Little Silver,preserved,2026-09-20,PLACEHOLDER
+07740,1.95,Long Branch,zori:2026-08-31,2026-09-20,"ZORI $2,730/mo / 1400 sqft assumption"
+07746,3.79,Marlboro,zori:2026-06-30,2026-09-20,"ZORI $5,300/mo / 1400 sqft assumption"
+07747,1.88,Matawan,zori:2026-08-31,2026-09-20,"ZORI $2,635/mo / 1400 sqft assumption"
+07748,2.27,Middletown,zori:2026-08-31,2026-09-20,"ZORI $3,179/mo / 1400 sqft assumption"
+07750,2.29,Monmouth Beach,zori:2026-07-31,2026-09-20,"ZORI $3,206/mo / 1400 sqft assumption"
+07751,2.51,Morganville,zori:2026-08-31,2026-09-20,"ZORI $3,516/mo / 1400 sqft assumption"
+07752,2.3,Navesink,preserved,2026-09-20,PLACEHOLDER
+07753,2.02,Neptune,zori:2026-08-31,2026-09-20,"ZORI $2,832/mo / 1400 sqft assumption"
+07755,1.85,Oakhurst,zori:2026-08-31,2026-09-20,"ZORI $2,583/mo / 1400 sqft assumption"
+07756,1.65,Ocean Grove,zori:2026-08-31,2026-09-20,"ZORI $2,304/mo / 1400 sqft assumption"
+07757,2.0,Oceanport,preserved,2026-09-20,PLACEHOLDER
+07758,1.8,Port Monmouth,preserved,2026-09-20,PLACEHOLDER
+07760,2.19,Rumson / Sea Bright / Locust,zori:2026-08-31,2026-09-20,"ZORI $3,068/mo / 1400 sqft assumption"
+07762,2.72,Spring Lake,zori:2026-08-31,2026-09-20,"ZORI $3,807/mo / 1400 sqft assumption"
+07764,2.0,West Long Branch,preserved,2026-09-20,PLACEHOLDER
+08723,2.06,Brick Township (north),zori:2026-08-31,2026-09-20,"ZORI $2,882/mo / 1400 sqft assumption"
+08724,1.79,Brick Township (south) / Brielle border,zori:2026-08-31,2026-09-20,"ZORI $2,500/mo / 1400 sqft assumption"
+08738,2.54,Mantoloking,zori:2026-08-31,2026-09-20,"ZORI $3,550/mo / 1400 sqft assumption"
+08742,2.21,Point Pleasant Beach / Point Pleasant Boro / Bay Head,zori:2026-08-31,2026-09-20,"ZORI $3,093/mo / 1400 sqft assumption"
+08750,2.8,Sea Girt,preserved,2026-09-20,PLACEHOLDER — luxury / seasonal
